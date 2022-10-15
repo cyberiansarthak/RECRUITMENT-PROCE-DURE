@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+.page1{
+    height: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #d9e8ef;
+    box-shadow: 7px 7px 11px #061217, -7px -7px 11px #0c202b;
+}
+
+h2 {
+    color: black;
+    font-family: Candara, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18.5pt;
+}
+
+p {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16.5pt;
+    margin: 0pt;
+}
+
+h1 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19.5pt;
+}
+
+.s1 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 16.5pt;
+}
+
+.s2 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18.5pt;
+}
+
+.s3 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 18.5pt;
+}
+
+.s4 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16.5pt;
+}
+
+h3 {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16.5pt;
+}
+
+.s5 {
+    color: #0562C1;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16.5pt;
+}
+
+.s6 {
+    color: #0562C1;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16.5pt;
+}
+
+li {
+    display: block;
+}
+
+#l1 {
+    padding-left: 0pt;
+    counter-reset: c1 1;
+}
+
+#l1>li>*:first-child:before {
+    counter-increment: c1;
+    content: counter(c1, decimal)". ";
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16.5pt;
+}
+
+#l1>li:first-child>*:first-child:before {
+    counter-increment: c1 0;
+}
+
+#l2 {
+    padding-left: 0pt;
+    counter-reset: c2 1;
+}
+
+#l2>li>*:first-child:before {
+    counter-increment: c2;
+    content: counter(c2, decimal)". ";
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 18.5pt;
+}
+
+#l2>li:first-child>*:first-child:before {
+    counter-increment: c2 0;
+}
+
+li {
+    display: block;
+}
+
+#l3 {
+    padding-left: 0pt;
+    counter-reset: d1 1;
+}
+
+#l3>li>*:first-child:before {
+    counter-increment: d1;
+    content: counter(d1, decimal)") ";
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16.5pt;
+}
+
+#l3>li:first-child>*:first-child:before {
+    counter-increment: d1 0;
+}
